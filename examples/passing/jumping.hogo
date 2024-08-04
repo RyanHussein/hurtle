@@ -1,0 +1,22 @@
+; Showcase of jumpto
+; No need to put the penup to prevent drawing with jumpto
+
+forward 50
+
+jumpto -150 0
+
+forward 50
+
+jumpto 0 -150
+
+forward 50
+
+jumpto 150 0
+
+forward 50
+
+jumpto 0 150
+
+forward 50
+
+jumpto 0 75

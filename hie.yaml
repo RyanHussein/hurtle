@@ -1,0 +1,17 @@
+cradle:
+  multi:
+    - path: "./src"
+      config:
+        cradle:
+          stack:
+            component: "hurtle:lib"
+    - path: "./app"
+      config:
+        cradle:
+          stack:
+            component: "hurtle:exe:hurtle"
+    - path: "./test"
+      config:
+        cradle:
+          stack:
+            component: "hurtle:test:hurtle-test"
